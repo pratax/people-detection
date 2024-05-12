@@ -1,0 +1,47 @@
+Not using distributed mode
+git:
+  sha: 8a144f83a287f4d3fece4acdf073f387c5af387d, status: has uncommited changes, branch: main
+Namespace(lr=0.0001, lr_backbone=1e-05, batch_size=2, weight_decay=0.0001, epochs=1, lr_drop=200, clip_max_norm=0.1, frozen_weights=None, backbone='resnet50', dilation=False, position_embedding='sine', enc_layers=6, dec_layers=6, dim_feedforward=2048, hidden_dim=256, dropout=0.1, nheads=8, num_queries=100, pre_norm=False, masks=False, aux_loss=True, set_cost_class=1, set_cost_bbox=5, set_cost_giou=2, mask_loss_coef=1, dice_loss_coef=1, bbox_loss_coef=5, giou_loss_coef=2, eos_coef=0.1, dataset_file='historical', data_path='../dataset/', coco_panoptic_path=None, remove_difficult=False, output_dir='output', device='cuda', seed=42, resume='weights/detr-r50-e632da11.pth', start_epoch=0, eval=False, num_workers=2, world_size=1, dist_url='env://', distributed=False)
+number of params: 41280266
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+Start training
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "C:\Users\chris\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\chris\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\chris\venv\lib\site-packages\wandb\sdk\wandb_run.py", line 167, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "C:\Users\chris\venv\lib\site-packages\wandb\sdk\interface\interface.py", line 114, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "C:\Users\chris\venv\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 387, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "C:\Users\chris\venv\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 222, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "C:\Users\chris\venv\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 227, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "C:\Users\chris\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\chris\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\chris\venv\lib\site-packages\wandb\sdk\wandb_run.py", line 149, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "C:\Users\chris\venv\lib\site-packages\wandb\sdk\interface\interface.py", line 125, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "C:\Users\chris\venv\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 397, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "C:\Users\chris\venv\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 222, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "C:\Users\chris\venv\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 227, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")

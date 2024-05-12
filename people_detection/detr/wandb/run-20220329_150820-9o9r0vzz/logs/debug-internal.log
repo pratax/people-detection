@@ -1,0 +1,78 @@
+2022-03-29 15:08:21,002 INFO    MainThread:18624 [internal.py:wandb_internal():92] W&B internal server running at pid: 18624, started at: 2022-03-29 15:08:21.001535
+2022-03-29 15:08:21,004 INFO    WriterThread:18624 [datastore.py:open_for_write():77] open: C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\run-9o9r0vzz.wandb
+2022-03-29 15:08:21,007 DEBUG   SenderThread:18624 [sender.py:send():235] send: header
+2022-03-29 15:08:21,007 DEBUG   SenderThread:18624 [sender.py:send():235] send: run
+2022-03-29 15:08:21,383 INFO    SenderThread:18624 [dir_watcher.py:__init__():169] watching files in: C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files
+2022-03-29 15:08:21,383 DEBUG   HandlerThread:18624 [handler.py:handle_request():141] handle_request: check_version
+2022-03-29 15:08:21,383 INFO    SenderThread:18624 [sender.py:_start_run_threads():812] run started: 9o9r0vzz with start time 1648559300
+2022-03-29 15:08:21,384 DEBUG   SenderThread:18624 [sender.py:send():235] send: summary
+2022-03-29 15:08:21,384 INFO    SenderThread:18624 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-29 15:08:21,385 DEBUG   SenderThread:18624 [sender.py:send_request():249] send_request: check_version
+2022-03-29 15:08:21,455 DEBUG   HandlerThread:18624 [handler.py:handle_request():141] handle_request: run_start
+2022-03-29 15:08:21,475 DEBUG   HandlerThread:18624 [meta.py:__init__():37] meta init
+2022-03-29 15:08:21,475 DEBUG   HandlerThread:18624 [meta.py:__init__():51] meta init done
+2022-03-29 15:08:21,475 DEBUG   HandlerThread:18624 [meta.py:probe():211] probe
+2022-03-29 15:08:21,517 DEBUG   HandlerThread:18624 [meta.py:_setup_git():201] setup git
+2022-03-29 15:08:21,606 DEBUG   HandlerThread:18624 [meta.py:_setup_git():208] setup git done
+2022-03-29 15:08:21,607 DEBUG   HandlerThread:18624 [meta.py:_save_pip():55] save pip
+2022-03-29 15:08:21,607 DEBUG   HandlerThread:18624 [meta.py:_save_pip():69] save pip done
+2022-03-29 15:08:21,608 DEBUG   HandlerThread:18624 [meta.py:probe():249] probe done
+2022-03-29 15:08:21,719 DEBUG   SenderThread:18624 [sender.py:send():235] send: files
+2022-03-29 15:08:21,719 INFO    SenderThread:18624 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-03-29 15:08:21,719 DEBUG   HandlerThread:18624 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-29 15:08:21,720 DEBUG   SenderThread:18624 [sender.py:send_request():249] send_request: stop_status
+2022-03-29 15:08:21,931 DEBUG   SenderThread:18624 [sender.py:send():235] send: telemetry
+2022-03-29 15:08:22,378 INFO    Thread-17 :18624 [upload_job.py:push():137] Uploaded file C:\Users\chris\AppData\Local\Temp\tmp3v2plu1qwandb\mckvngae-wandb-metadata.json
+2022-03-29 15:08:22,397 INFO    Thread-11 :18624 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files\wandb-metadata.json
+2022-03-29 15:08:22,397 INFO    Thread-11 :18624 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files\wandb-summary.json
+2022-03-29 15:08:22,397 INFO    Thread-11 :18624 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files\output.log
+2022-03-29 15:08:22,397 INFO    Thread-11 :18624 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files\requirements.txt
+2022-03-29 15:08:24,416 INFO    Thread-11 :18624 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files\output.log
+2022-03-29 15:08:36,933 DEBUG   HandlerThread:18624 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-29 15:08:36,934 DEBUG   SenderThread:18624 [sender.py:send_request():249] send_request: stop_status
+2022-03-29 15:08:51,636 INFO    Thread-11 :18624 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files\config.yaml
+2022-03-29 15:08:52,268 DEBUG   HandlerThread:18624 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-29 15:08:52,268 DEBUG   SenderThread:18624 [sender.py:send_request():249] send_request: stop_status
+2022-03-29 15:08:52,608 DEBUG   SenderThread:18624 [sender.py:send():235] send: stats
+2022-03-29 15:09:07,464 DEBUG   HandlerThread:18624 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-29 15:09:07,465 DEBUG   SenderThread:18624 [sender.py:send_request():249] send_request: stop_status
+2022-03-29 15:09:22,677 DEBUG   HandlerThread:18624 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-29 15:09:22,678 DEBUG   SenderThread:18624 [sender.py:send_request():249] send_request: stop_status
+2022-03-29 15:09:25,837 DEBUG   SenderThread:18624 [sender.py:send():235] send: stats
+2022-03-29 15:09:37,877 DEBUG   HandlerThread:18624 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-29 15:09:37,877 DEBUG   SenderThread:18624 [sender.py:send_request():249] send_request: stop_status
+2022-03-29 15:09:53,082 DEBUG   HandlerThread:18624 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-29 15:09:53,082 DEBUG   SenderThread:18624 [sender.py:send_request():249] send_request: stop_status
+2022-03-29 15:09:59,226 DEBUG   SenderThread:18624 [sender.py:send():235] send: stats
+2022-03-29 15:10:08,286 DEBUG   HandlerThread:18624 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-29 15:10:08,286 DEBUG   SenderThread:18624 [sender.py:send_request():249] send_request: stop_status
+2022-03-29 15:10:23,649 DEBUG   HandlerThread:18624 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-29 15:10:23,650 DEBUG   SenderThread:18624 [sender.py:send_request():249] send_request: stop_status
+2022-03-29 15:10:32,544 DEBUG   SenderThread:18624 [sender.py:send():235] send: stats
+2022-03-29 15:10:39,186 DEBUG   HandlerThread:18624 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-29 15:10:39,187 DEBUG   SenderThread:18624 [sender.py:send_request():249] send_request: stop_status
+2022-03-29 15:10:54,401 DEBUG   HandlerThread:18624 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-29 15:10:54,402 DEBUG   SenderThread:18624 [sender.py:send_request():249] send_request: stop_status
+2022-03-29 15:11:05,986 DEBUG   SenderThread:18624 [sender.py:send():235] send: stats
+2022-03-29 15:11:09,614 DEBUG   HandlerThread:18624 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-29 15:11:09,615 DEBUG   SenderThread:18624 [sender.py:send_request():249] send_request: stop_status
+2022-03-29 15:11:23,289 WARNING MainThread:18624 [internal.py:wandb_internal():155] Internal process interrupt: 1
+2022-03-29 15:11:23,483 WARNING MainThread:18624 [internal.py:wandb_internal():155] Internal process interrupt: 2
+2022-03-29 15:11:23,483 ERROR   MainThread:18624 [internal.py:wandb_internal():158] Internal process interrupted.
+2022-03-29 15:11:23,894 INFO    SenderThread:18624 [sender.py:finish():1078] shutting down sender
+2022-03-29 15:11:23,894 INFO    SenderThread:18624 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-29 15:11:23,894 INFO    HandlerThread:18624 [handler.py:finish():778] shutting down handler
+2022-03-29 15:11:23,973 INFO    SenderThread:18624 [dir_watcher.py:finish():313] scan: C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files
+2022-03-29 15:11:23,973 INFO    SenderThread:18624 [dir_watcher.py:finish():327] scan save: C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files\config.yaml config.yaml
+2022-03-29 15:11:23,973 INFO    SenderThread:18624 [dir_watcher.py:finish():327] scan save: C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files\output.log output.log
+2022-03-29 15:11:23,974 INFO    SenderThread:18624 [dir_watcher.py:finish():327] scan save: C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files\requirements.txt requirements.txt
+2022-03-29 15:11:23,979 INFO    SenderThread:18624 [dir_watcher.py:finish():327] scan save: C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files\wandb-metadata.json wandb-metadata.json
+2022-03-29 15:11:23,979 INFO    SenderThread:18624 [dir_watcher.py:finish():327] scan save: C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files\wandb-summary.json wandb-summary.json
+2022-03-29 15:11:23,980 INFO    SenderThread:18624 [file_pusher.py:finish():145] shutting down file pusher
+2022-03-29 15:11:23,980 INFO    SenderThread:18624 [file_pusher.py:join():150] waiting for file pusher
+2022-03-29 15:11:24,128 INFO    WriterThread:18624 [datastore.py:close():281] close: C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\run-9o9r0vzz.wandb
+2022-03-29 15:11:24,650 INFO    Thread-19 :18624 [upload_job.py:push():137] Uploaded file C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files\output.log
+2022-03-29 15:11:24,655 INFO    Thread-21 :18624 [upload_job.py:push():137] Uploaded file C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files\wandb-summary.json
+2022-03-29 15:11:24,669 INFO    Thread-20 :18624 [upload_job.py:push():137] Uploaded file C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files\requirements.txt
+2022-03-29 15:11:24,670 INFO    Thread-18 :18624 [upload_job.py:push():137] Uploaded file C:\Users\chris\Desktop\SUS\detr\wandb\run-20220329_150820-9o9r0vzz\files\config.yaml
+2022-03-29 15:11:25,159 INFO    MainThread:18624 [internal.py:handle_exit():82] Internal process exited

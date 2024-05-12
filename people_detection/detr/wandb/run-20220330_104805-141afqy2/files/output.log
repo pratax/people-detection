@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\chris\Desktop\SUS\detr\main.py", line 257, in <module>
+    "learning_rate": args.lr,
+NameError: name 'args' is not defined

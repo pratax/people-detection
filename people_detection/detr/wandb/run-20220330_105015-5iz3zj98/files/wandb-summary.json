@@ -1,0 +1,1 @@
+{"train loss": 33.928363088351574, "test loss": 40.75644612312317, "train loss bbox": 3.3122233152389526, "test loss bbox": 3.541822620800563, "_timestamp": 1648630291, "_runtime": 76, "_step": 0, "_wandb": {"runtime": 95}}

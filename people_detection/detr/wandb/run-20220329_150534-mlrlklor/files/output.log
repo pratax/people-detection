@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\chris\Desktop\SUS\detr\main.py", line 262, in <module>
+    freeze_support()
+NameError: name 'freeze_support' is not defined

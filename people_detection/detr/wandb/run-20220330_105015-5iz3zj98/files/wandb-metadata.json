@@ -1,0 +1,29 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.10",
+    "heartbeatAt": "2022-03-30T08:50:16.793059",
+    "startedAt": "2022-03-30T08:50:15.525022",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1660 Ti with Max-Q Design",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--dataset_file",
+        "historical",
+        "--data_path",
+        "../dataset/"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\chris\\Desktop\\SUS\\detr\\main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/facebookresearch/detr.git",
+        "commit": "8a144f83a287f4d3fece4acdf073f387c5af387d"
+    },
+    "email": "christian.pratellesi@virgilio.it",
+    "root": "C:/Users/chris/Desktop/SUS/detr",
+    "host": "LAPTOP-VRBSC2S4",
+    "username": "chris",
+    "executable": "C:\\Users\\chris\\venv\\Scripts\\python.exe"
+}
